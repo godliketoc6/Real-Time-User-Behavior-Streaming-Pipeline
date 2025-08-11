@@ -1,40 +1,23 @@
-# Python cache
+# Ignore Python cache files
 __pycache__/
-*.py[cod]
+*.pyc
 *.pyo
 *.pyd
-*.pkl
-*.pyd
 
-# Virtual environment
+# Ignore virtual environment
 .venv/
-venv/
-ENV/
-env/
 
-# Environment variables
+# Ignore environment/config files
 .env
 *.env
+Lib/
+Scripts/
+pyvenv.cfg
 
-# VS Code settings
+# Ignore IDE/editor settings
 .vscode/
-*.code-workspace
+.idea/
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
-
-# Pytest cache
-.pytest_cache/
-
-# Logs
-*.log
-logs/
-log/
-
-# OS-specific files
+# Ignore OS-specific files
 .DS_Store
 Thumbs.db
-
-# Kafka / MongoDB generated files (if any local data stored)
-kafka-logs/
-mongo-data/
