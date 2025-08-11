@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pkl
+*.pyd
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+
+# Environment variables
+.env
+*.env
+
+# VS Code settings
+.vscode/
+*.code-workspace
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Pytest cache
+.pytest_cache/
+
+# Logs
+*.log
+logs/
+log/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Kafka / MongoDB generated files (if any local data stored)
+kafka-logs/
+mongo-data/
