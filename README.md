@@ -22,6 +22,7 @@ Perfect for mirroring data, bridging clusters, or bootstrapping a local developm
 ---
 
 ## Repository layout
+```
 kafka-mongodb-data-pipeline/
 ├── config.py # Loads .env and exposes configurations
 ├── kafka_utils.py # Kafka Producer and Consumer setup
@@ -30,6 +31,7 @@ kafka-mongodb-data-pipeline/
 ├── requirements.txt # Python dependencies
 ├── .env.example # Example environment configuration
 └── README.md
+```
 
 ## Requirements
 - Python 3.8+
