@@ -1,4 +1,4 @@
-# Kafka-MongoDB Data Pipeline
+# Real-Time User Behavior Streaming Pipeline
 
 A small, configurable Python pipeline that **consumes** messages from a remote Kafka cluster, **produces** them into a local Kafka topic, then **consumes** from the local topic and **persists** messages into MongoDB.
 
